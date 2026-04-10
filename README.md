@@ -19,4 +19,19 @@ shot quality and xG in Leverkusen's title-winning season.
 from high-xG positions inside the box. Bayern's best chance 
 was Sacha Boey's 0.23 xG effort.
 
---
+---
+
+## Tools & Data
+
+- **Data:** StatsBomb open data (free)
+- **Language:** Python 3.12
+- **Libraries:** `statsbombpy`, `mplsoccer`, `matplotlib`, `pandas`
+
+---
+
+## How to run
+
+```bash
+pip install statsbombpy mplsoccer matplotlib pandas
+python3 shot_map.py
+```
